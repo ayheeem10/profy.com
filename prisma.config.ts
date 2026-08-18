@@ -9,7 +9,7 @@ import { defineConfig, env } from "prisma/config";
 export default defineConfig({
   schema: "prisma/schema.prisma",
   datasource: {
-    url: env("DIRECT_URL"),
+    url: env("postgresql://postgres.tojhnsgrboricuilgdkg:[Babamama21000319]@aws-0-ap-northeast-2.pooler.supabase.com:6543/postgres?pgbouncer=true"),
   },
   migrations: {
     seed: "tsx prisma/seed.ts",
